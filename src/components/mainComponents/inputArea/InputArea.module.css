@@ -1,0 +1,5 @@
+.add-task-area {
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+}

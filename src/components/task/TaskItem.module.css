@@ -1,0 +1,9 @@
+.task-list-item{
+    background-color: #191933;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    padding: 8px;
+}

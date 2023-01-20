@@ -7,6 +7,10 @@
     --add-button-shadow: rgba(238, 156, 167, 0.4);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 
 body {
     width: 100%;

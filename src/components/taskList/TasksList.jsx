@@ -9,7 +9,7 @@ const TasksList = (props) => {
 
     return (
         <ul className={classes['task-list']}>
-            {tasks.map(task => <TaskItem remove={remove} task={task}/>)}
+            {tasks.map(task => <TaskItem key={task.id} remove={remove} task={task}/>)}
         </ul>
     );
 };

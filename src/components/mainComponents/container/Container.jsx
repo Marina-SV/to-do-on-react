@@ -24,7 +24,7 @@ const Container = () => {
     }
 
     function removeTask(id) {
-        setList(tasksList.filter(item => item.id != id))
+        setList(tasksList.filter(item => item.id !== id))
     }
 
     return (

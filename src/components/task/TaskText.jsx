@@ -4,7 +4,7 @@ import classes from "./TaskText.module.css";
 
 const TaskText = (props) => {
 
-    const {id, text} = props.task;
+    const {text} = props.task;
     return (
         <label className={classes['task-list-label']}>
             <input type='checkbox' className={classes['checkbox-style']} />

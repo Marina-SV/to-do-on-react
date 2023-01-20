@@ -7,7 +7,7 @@ const TaskText = (props) => {
     const {id, text} = props.task;
     return (
         <label className={classes['task-list-label']}>
-            <input className={classes['checkbox-style']} type='checkbox'/>
+            <input type='checkbox' className={classes['checkbox-style']} />
             <span>{text}</span>
         </label>
     )

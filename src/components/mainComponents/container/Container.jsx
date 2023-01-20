@@ -9,7 +9,15 @@ import Title from "../title/Title";
 
 const Container = () => {
 
-    const [tasksList, setList] = useState([])
+    const [tasksList, setList] = useState([
+
+        {id: crypto.randomUUID(),
+            text: 'Explore GitHub profile'
+        },
+        {id: crypto.randomUUID(),
+            text: 'Call applicant for an interview'
+        }
+    ])
 
     function addTask(task) {
         setList([...tasksList, task])

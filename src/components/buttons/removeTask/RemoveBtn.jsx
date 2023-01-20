@@ -2,7 +2,6 @@ import React from 'react';
 import classes from "./RemoveBtn.module.css";
 
 const RemoveBtn = (props) => {
-    console.log(props)
     const {id, remove} = props;
     return (
         <>

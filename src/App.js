@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Container from "./components/mainComponents/container/Container";
 
 const App = () => {
@@ -6,9 +6,9 @@ const App = () => {
 
 
     return (
-        <div>
+        <>
            <Container />
-        </div>
+        </>
     );
 };
 

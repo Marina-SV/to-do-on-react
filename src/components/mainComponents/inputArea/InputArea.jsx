@@ -5,7 +5,7 @@ import classes from "./InputArea.module.css";
 
 const InputArea = (props) => {
 
-    const {add} = props
+    const {add} = props;
 
     const [task, setTask] = useState({text: ''})
 
